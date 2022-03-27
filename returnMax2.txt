@@ -6,7 +6,7 @@ void func(int a, int b) {
   else if (b > a)
     printf("%d", b);
   else
-    printf("Bu ededler beraberdir");
+    printf("These numbers are equal.");
 }
 int main() {
   int a, b;
