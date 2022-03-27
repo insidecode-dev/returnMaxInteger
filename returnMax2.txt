@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void func(int a, int b) {
+  if (a > b)
+    printf("%d", a);
+  else if (b > a)
+    printf("%d", b);
+  else
+    printf("Bu ededler beraberdir");
+}
+int main() {
+  int a, b;
+  scanf_s("%d %d", &a, &b);
+  func(a, b); 
+}
